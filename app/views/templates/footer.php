@@ -1,5 +1,3 @@
 
-<body>
-
-</body>
+<script src=" <?=BASEURL;?> /js/bootstrap.js"></script>
 </html>
