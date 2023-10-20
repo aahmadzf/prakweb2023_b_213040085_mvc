@@ -6,10 +6,26 @@
     </div>
 
     <div class="row">
+      <div class="col-lg-6">
+        <button type="button" class="btn btn-primary mb-3 tombolTambahData"  data-bs-toggle="modal" data-bs-target="#formModal">
+            Tambah Mahasiswa
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <form action="<?=BASEURL;?>/mahasiswa/cari" method="post">
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" placeholder="Cari mahasiswa...." autocomplete="off" name="keyword" id="keyword" aria-describedby="button-addon2">
+          <button class="btn btn-primary" type="submit" id="tombolCari">Cari</button>
+        </div>
+      </form>
+      </div>
+    </div>
+
+    <div class="row">
         <div class="col-6">
-            <button type="button" class="btn btn-primary mb-4 tombolTambahData"  data-bs-toggle="modal" data-bs-target="#formModal">
-                Tambah Mahasiswa
-            </button>
 
             <h3>Daftar Mahasiswa</h3>
 
