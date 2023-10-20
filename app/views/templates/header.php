@@ -11,7 +11,7 @@
 <nav class="navbar ms-5 navbar-expand-lg bg-body-tertiary">
 
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">MVC AHMAD</a>
+    <a class="navbar-brand" href="<?=BASEURL;?>">MVC AHMAD</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
